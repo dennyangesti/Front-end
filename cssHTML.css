@@ -1,0 +1,71 @@
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+p {
+  background-color: azure;
+}
+
+/* !Class! */
+.orange {
+  color: orange;
+}
+.azure {
+  color: salmon;
+}
+
+/* !ID! */
+#single {
+  color: blueviolet;
+}
+#double {
+  color: rgb(53, 6, 104);
+}
+#triple {
+  color: rgba(214, 214, 214, 0.7);
+  background: linear-gradient(red, gold);
+}
+/*?? 0 sampai 1, 0 => Hilang, 1=> Sempurna */
+
+/* !Attribute! */
+input[type="text"] {
+  border: 2px solid goldenrod;
+}
+
+div {
+  background: url(../Photo/munchen.jpg);
+  background-size: 400px;
+}
+
+div p {
+  color: black;
+  width: 50%;
+}
+
+div img {
+  width: 20%;
+}
+
+p#typo {
+  /* !Pemilihan Font! */
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  /* !Ukuran Font! */
+  font-size: 20px;
+  text-decoration: line-through;
+  /* !Tinggi Baris! */
+  line-height: 30px;
+  background-color: blueviolet;
+  /* !Jarak Antar Huruf! */
+  letter-spacing: 10px;
+  /* !Mengatur letak tulisan! */
+  text-align: center;
+}
+p#google {
+  font-family: "Baloo Bhai", cursive;
+}

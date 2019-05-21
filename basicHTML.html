@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Belajar HTML</title>
+    <link rel="stylesheet" href="cssHTML.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- !Paragraf, Break, & Comment! -->
+    <p>Ini Paragraf 1</p>
+    <p>Ini Paragraf 2</p>
+
+    <hr />
+    Ini baris 1 <br />
+    Ini baris 2
+    <!-- ? Ini adalah komentar -->
+
+    <!-- !Unordered List! -->
+    <h1>Daftar Belanja:</h1>
+    <ul>
+      <li>Beras</li>
+      <li>Minyak Goreng</li>
+      <li>Gula</li>
+      <li>Santan</li>
+      <li>Merica</li>
+      <li>Ikan</li>
+    </ul>
+
+    <h1>Daftar Belanja:</h1>
+    <ul type="disc">
+      <li>Beras</li>
+      <li>Minyak Goreng</li>
+    </ul>
+    <ul type="circle">
+      <li>Gula</li>
+      <li>Santan</li>
+    </ul>
+    <ul type="square">
+      <li>Merica</li>
+      <li>Ikan</li>
+    </ul>
+    <!-- !Ordered List! -->
+    <h1>Ranking Kelas X</h1>
+    <ol>
+      <li>Andi</li>
+      <li>Budi</li>
+      <li>Caca</li>
+      <li>Dedi</li>
+      <li>Euis</li>
+      <li>Fafa</li>
+    </ol>
+
+    <h1>Ranking Kelas X:</h1>
+    <ol type="a">
+      <li>Alice</li>
+      <li>Brad</li>
+      <li>Charlos</li>
+      <li>Dude</li>
+      <li>Elon</li>
+      <li>Fransiska</li>
+    </ol>
+
+    <!-- !Description List! -->
+    <h1>Glosarium</h1>
+
+    <dl>
+      <dt>Mikrokontroler</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, error.
+      </dd>
+      <dt>Sensor</dt>
+      <dd>Lorem ipsum dolor sit amet consectetur adipisicing.</dd>
+      <dt>Aktuator</dt>
+      <dd>Lorem ipsum dolor sit amet.</dd>
+    </dl>
+
+    <!-- !Table! -->
+    <h1>Table</h1>
+    <p>Colspan</p>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>TTL</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td>Galih</td>
+        <td>Jepang, 25 Jan 1992</td>
+        <td>Kemang Pratama</td>
+      </tr>
+      <tr>
+        <td>Ratna</td>
+        <td>Bandung, 5 April 1999</td>
+        <td>Tegal</td>
+      </tr>
+      <tr>
+        <td colspan="2">Rudolf</td>
+        <td>Slawi</td>
+      </tr>
+    </table>
+
+    <h1>Table</h1>
+    <p>Rowspan</p>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>TTL</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td>Galih</td>
+        <td>Jepang, 25 Jan 1992</td>
+        <td>Kemang Pratama</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Ratna</td>
+        <td>Bandung, 5 April 1999</td>
+        <td>Tegal</td>
+      </tr>
+      <tr>
+        <td>Jakarta, 20 Mei 1998</td>
+        <td>Slawi</td>
+      </tr>
+    </table>
+
+    <br /><br /><br />
+
+    <!-- !Anchor! -->
+    <!-- ?Absolute Link? -->
+    <a href="https://www.google.com" target="blank">Absolute Link!</a>
+    <br />
+    <!-- ?Relative Link? -->
+    <!-- TODO, ./ => Masuk ke dalam folder -->
+    <!-- TODO, ../ => Keluar ke folder sebelumnya -->
+    <a href="./relativeLink/satu/dua/relative.html" target="blank"
+      >Relative Link!</a
+    ><br />
+    <a href="../Fundamental Folder/index.html" target="blank">Relative Link!</a
+    ><br /><br /><br />
+
+    <!-- !ID Link! -->
+    <h1>ID Link</h1>
+    <a href="#disini">Ini akan geser ke bawah</a>
+
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2 id="disini">Di arahkan kesini</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <h2>lorem</h2>
+    <br /><br />
+
+    <h1>Gambar</h1>
+    <!-- !Images! -->
+    <!-- ?Absolute Address? -->
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaPr5ZSe4slkCLNyxCxBjFBIdVBUmo_10P4nV2Uu11wvNK5iqzg"
+      alt="Manchester United Logo"
+    />
+    <br /><br />
+    <!-- ?Relative Address? -->
+    <img src="../Photo/barcelona.jpg" alt="Barcelona Logo" />
+    <br /><br /><br />
+
+    <!-- !Select Option! -->
+    <h1>Select Option</h1>
+    <select name="color" id="color">
+      <optgroup label="Warna Hijau">
+        <option value="Hijau">Hijau</option>
+        <option value="Hijau Daun">Hijau Daun</option>
+      </optgroup>
+      <optgroup label="Warna Merah">
+        <option value="Merah">Merah</option>
+        <option value="Merah Muda">Merah Muda</option>
+        <option value="Merah Maroon">Merah Maroon</option>
+      </optgroup>
+      <optgroup label="Warna Biru">
+        <option value="Biru Laut">Biru Laut</option>
+        <option value="Biru Dongker">Biru Dongker</option>
+      </optgroup>
+    </select>
+
+    <!-- !Label! -->
+    <!-- TODO, Untuk Form yang lebih mudah -->
+
+    <h1>Form</h1>
+    <p>
+      <label for="name">Nama:</label>
+      <input type="text" name="name" id="name" />
+    </p>
+    <p>
+      <label for="pria">Pria</label>
+      <input type="radio" name="gender" id="pria" />
+      <label for="wanita">Wanita</label>
+      <input type="radio" name="gender" id="wanita" />
+    </p>
+
+    <!-- !Styling by Class! -->
+    <h1>Styling by Class</h1>
+    <h2 class="orange">Ini akan berwarna Orange</h2>
+    <h2>Ini akan berwarna Hitam</h2>
+    <h2 class="azure">Ini akan berwarna Pink</h2>
+    <br />
+
+    <!-- !Styling by ID! -->
+    <h1>Styling by ID</h1>
+    <h2 id="single">Ini menggunakan ID</h2>
+    <h2 id="double">Menggunakan RGB</h2>
+    <h2 id="triple">Menggunakan Transparancy</h2>
+    <br />
+
+    <!-- !Div! -->
+    <!-- ?Sebuah block level? -->
+    <!-- ?Biasa digunakan hanya sebagai wrap? -->
+    <h1>DIV</h1>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+        minima.
+      </p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div>
+      <img src="../Photo/real madrid.jpg" alt="Real Madrid Logo" />
+    </div>
+    <p id="typo">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+      atque.
+    </p>
+    <p id="google">
+      Ini dari google font
+    </p>
+  </body>
+</html>
